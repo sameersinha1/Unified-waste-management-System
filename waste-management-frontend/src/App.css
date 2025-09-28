@@ -1,0 +1,10 @@
+/* You can leave this file empty or add custom global styles here */
+/* For example, a fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
